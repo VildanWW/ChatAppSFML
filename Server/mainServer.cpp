@@ -41,7 +41,7 @@ int main() {
 	std::vector<sf::TcpSocket*> clients;
 	std::mutex clientsMutex;
 
-	if (listener.listen(4000) != sf::Socket::Done) {
+	if (listener.listen(3000) != sf::Socket::Done) {
 		std::cerr << "Error binding port" << std::endl;
 		return 1;
 	}

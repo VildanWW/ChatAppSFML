@@ -3,6 +3,7 @@
 #include <iostream>
 #include <thread>
 
+
 void receive(sf::TcpSocket& socket) {
 	while (true) {
 		sf::Packet packet;
@@ -41,3 +42,5 @@ int main() {
 
 	return 0;
 }
+
+
