@@ -1,4 +1,4 @@
-# SimpleChat v1.0 — Completed
+# SimpleChat v1.0 — InProgress
 
 ## What’s done
 
